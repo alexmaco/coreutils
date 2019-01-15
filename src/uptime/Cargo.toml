@@ -10,7 +10,7 @@ path = "uptime.rs"
 
 [dependencies]
 getopts = "0.2.18"
-time = "0.1.40"
+time = "0.1.42"
 
 [dependencies.uucore]
 path = "../uucore"

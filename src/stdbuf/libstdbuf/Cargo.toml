@@ -11,8 +11,8 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 uucore = { path="../../uucore" }
-libc = "0.2"
-cpp = "0.4"
+libc = "0.2.47"
+cpp = "0.5.1"
 
 [build-dependencies]
-cpp_build = "0.4"
+cpp_build = "0.5.1"

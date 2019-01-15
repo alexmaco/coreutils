@@ -13,11 +13,11 @@ path = "cp.rs"
 
 [dependencies]
 getopts = "0.2.18"
-libc = "0.2.42"
-walkdir = "2.1.4"
+libc = "0.2.47"
+walkdir = "2.2.7"
 clap = "2.32.0"
 quick-error = "1.2.2"
-filetime = "0.2"
+filetime = "0.2.4"
 
 [dependencies.uucore]
 path = "../uucore"
@@ -28,10 +28,10 @@ ioctl-sys = "0.5.2"
 
 [target.'cfg(target_os = "windows")'.dependencies]
 kernel32-sys = "0.2.2"
-winapi = "0.3"
+winapi = "0.3.6"
 
 [target.'cfg(unix)'.dependencies]
-xattr="0.2.1"
+xattr= "0.2.2"
 
 [[bin]]
 name = "cp"

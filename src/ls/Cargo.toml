@@ -10,11 +10,11 @@ path = "ls.rs"
 
 [dependencies]
 getopts = "0.2.18"
-pretty-bytes = "0.2.1"
-term_grid = "0.1.5"
-termsize = "0.1.4"
-time = "0.1.40"
-lazy_static = "1.0.1"
+pretty-bytes = "0.2.2"
+term_grid = "0.1.7"
+termsize = "0.1.5"
+time = "0.1.42"
+lazy_static = "1.2.0"
 unicode-width = "0.1.5"
 
 [dependencies.uucore]

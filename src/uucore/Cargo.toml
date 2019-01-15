@@ -5,14 +5,14 @@ authors = []
 
 [dependencies]
 getopts = "0.2.18"
-failure = { version = "0.1.1", optional = true }
-failure_derive = { version = "0.1.1", optional = true }
-time = { version = "0.1.40", optional = true }
-data-encoding = { version = "^2.1", optional = true }
-libc = { version = "0.2.42", optional = true }
+failure = { version = "0.1.5", optional = true }
+failure_derive = { version = "0.1.5", optional = true }
+time = { version = "0.1.42", optional = true }
+data-encoding = { version = "2.1.2", optional = true }
+libc = { version = "0.2.47", optional = true }
 
 [target.'cfg(target_os = "redox")'.dependencies]
-termion = "1.5"
+termion = "1.5.1"
 
 [features]
 fs = ["libc"]

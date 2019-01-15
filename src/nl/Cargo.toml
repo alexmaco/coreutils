@@ -10,11 +10,11 @@ path = "nl.rs"
 
 [dependencies]
 getopts = "0.2.18"
-libc = "0.2.42"
-aho-corasick = "0.6.5"
-memchr = "1.0.1"
-regex = "1.0.1"
-regex-syntax = "0.6.1"
+libc = "0.2.47"
+aho-corasick = "0.6.9"
+memchr = "2.1.2"
+regex = "1.1.0"
+regex-syntax = "0.6.4"
 uucore = { path="../uucore" }
 
 [[bin]]

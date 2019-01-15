@@ -10,11 +10,11 @@ path = "install.rs"
 
 [dependencies]
 getopts = "0.2.18"
-libc = ">= 0.2"
+libc = "0.2.47"
 uucore = { path="../uucore" }
 
 [dev-dependencies]
-time = "0.1.40"
+time = "0.1.42"
 
 [[bin]]
 name = "install"
