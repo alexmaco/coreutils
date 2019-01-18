@@ -12,10 +12,6 @@ path = "who.rs"
 path = "../uucore"
 features = ["utmpx"]
 
-[dependencies.clippy]
-version = "0.0.302"
-optional = true
-
 [[bin]]
 name = "who"
 path = "../../uumain.rs"
