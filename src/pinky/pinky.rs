@@ -6,9 +6,6 @@
 // For the full copyright and license information, please view the LICENSE
 // file that was distributed with this source code.
 //
-#![cfg_attr(feature = "clippy", feature(plugin))]
-#![cfg_attr(feature = "clippy", plugin(clippy))]
-
 #[macro_use]
 extern crate uucore;
 use uucore::utmpx::{self, time, Utmpx};
